@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap');
 
 body {
-    font-family: lato;
+    font-family: oswald;
 }
 
 header {
     font-family: lato;
-    color: #3d2168;
 }
 
 * {
@@ -15,9 +14,7 @@ header {
     border: none;
 }
 
-
-
-/*page heading*/
+/*nav bar*/
 
 #menu {
     text-align: center;
@@ -40,9 +37,9 @@ header {
     color: rgb(135, 255, 44);
 }
 
+/*heading and hero image*/
 
-
-section h1 {
+#hero h1 {
     text-align: center;
     font-size: 500%;
     text-transform: capitalize;
@@ -65,3 +62,15 @@ section h1 {
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+/*about*/
+
+.side-div {
+    width: 30.33%;
+    height: 400px;
+    margin: 0 1.5%;
+    float: left;
+    font-family: lato;
+
+}
+
