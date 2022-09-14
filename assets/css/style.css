@@ -1,4 +1,26 @@
-header h1 {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*page heading*/
+
+#menu {
+    color: #3d2168;
+    text-align: center;
+    background-color: rgb(135, 255, 44);
+}
+
+#menu li { 
+    display: inline;
+    padding: 0 5%;   
+}
+
+#menu a:hover {
+    color: #E0115F;
+}
+
+section h1 {
     text-align: center;
     font-size: 500%;
     text-transform: capitalize;
