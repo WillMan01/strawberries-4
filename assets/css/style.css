@@ -14,6 +14,17 @@ header {
     border: none;
 }
 
+h2,h3 {
+    color: #3d2168;
+    text-shadow: 1px 1px 0px #f0cedb;
+    text-decoration-line: underline;
+}
+
+p {
+    text-shadow: 1px 1px 0px #f0cedb;
+    color: #3d2168;
+}
+
 /*nav bar*/
 
 #menu {
@@ -76,10 +87,20 @@ header {
 }
 
 .main-div h2,h3 {
-    text-shadow: 1px 1px 0px #f0cedb;
-    text-decoration-line: underline;
+    
     padding: 7% 0 3% 0;
     font-size: 150%;
+}
+
+/*How to*/
+
+#how-to {
+    padding: 5% 17%;   
+}
+
+#how-to li {
+    text-shadow: 1px 1px 0px #f0cedb;
+    color: #3d2168;
 }
 
 /*footer*/
@@ -117,5 +138,13 @@ header {
     width: 70%;
     height: 80%;
     margin: 0 15%;
+}
+    #menu li { 
+        display: inline;
+        padding: 5% 5%; 
+}
+
+#hero-div {
+    height: 250px;
 }
 }
