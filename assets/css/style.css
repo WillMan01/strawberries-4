@@ -79,6 +79,7 @@ header {
     text-shadow: 1px 1px 0px #f0cedb;
     text-decoration-line: underline;
     padding: 7% 0 3% 0;
+    font-size: 150%;
 }
 
 /*footer*/
@@ -91,4 +92,30 @@ header {
 .social-networks li {
     padding: 5%;
     display: inline;
+}
+
+/*larger than 1200px screen*/
+
+@media screen and (min-width:1200px) {
+ #hero-div {
+    background-color: blue;
+    height: 450px;
+    width: 100%;
+}
+
+#hero h1 {
+    font-size: 700%;
+}
+
+.main-div h2,h3,p {
+    font-size: 130%;
+}
+}
+
+@media screen and (max-width:700px) {
+.main-div {
+    width: 70%;
+    height: 80%;
+    margin: 0 15%;
+}
 }
