@@ -18,6 +18,7 @@ header {
 
 #menu {
     text-align: center;
+    scroll-margin-top: 4%;
 }
 
 #menu li { 
@@ -67,10 +68,27 @@ header {
 
 .main-div {
     width: 30.33%;
-    height: 400px;
+    height: 550px;
     margin: 0 1.5%;
     float: left;
     font-family: lato;
-
+    text-align: center;
 }
 
+.main-div h2,h3 {
+    text-shadow: 1px 1px 0px #f0cedb;
+    text-decoration-line: underline;
+    padding: 7% 0 3% 0;
+}
+
+/*footer*/
+
+.social-networks {
+    text-align: center;
+    padding: 1%;
+}
+
+.social-networks li {
+    padding: 5%;
+    display: inline;
+}
