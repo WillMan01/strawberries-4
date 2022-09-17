@@ -21,7 +21,6 @@ h2,h3 {
 }
 
 p {
-    text-shadow: 1px 1px 0px #f0cedb;
     color: #3d2168;
 }
 
@@ -95,11 +94,11 @@ p {
 /*How to*/
 
 #how-to {
-    padding: 5% 17%;   
+    padding: 0 5%;   
 }
 
 #how-to li {
-    text-shadow: 1px 1px 0px #f0cedb;
+    
     color: #3d2168;
 }
 
@@ -131,6 +130,10 @@ p {
 .main-div h2,h3,p {
     font-size: 130%;
 }
+
+#how-to h2,ul li,ol li {
+    font-size: 130%;
+}
 }
 
 @media screen and (max-width:700px) {
@@ -148,3 +151,5 @@ p {
     height: 250px;
 }
 }
+
+
