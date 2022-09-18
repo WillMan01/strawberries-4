@@ -102,6 +102,37 @@ p {
     color: #3d2168;
 }
 
+/*gallery*/ 
+
+.flex-box {
+    display: flex;
+    height: 50%;
+    flex-wrap: wrap;
+}
+
+#small-sbp {
+    width: 40%;
+}
+
+#cascade {
+    width:40%;
+}
+
+#blur {
+    width: 40%;
+    float: left;
+}
+
+#planter {
+    float: right;
+    width: 40%;
+}
+
+#basket {
+    width: 35%;
+    float: right;
+}
+
 /*footer*/
 
 .social-networks {
