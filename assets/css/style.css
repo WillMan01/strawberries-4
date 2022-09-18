@@ -108,19 +108,26 @@ p {
     display: flex;
     height: 50%;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+#smoothie {
+    width: 25%;
 }
 
 #small-sbp {
-    width: 40%;
+    width: 25%;
+    height: 25%;
 }
 
 #cascade {
-    width:40%;
+    width:20%;
+    float: right;
 }
 
 #blur {
-    width: 40%;
-    float: left;
+    width: 30%;
+    height: 25%;
 }
 
 #planter {
@@ -129,8 +136,8 @@ p {
 }
 
 #basket {
-    width: 35%;
-    float: right;
+    width: 25%;
+    float: left;
 }
 
 /*footer*/
@@ -182,6 +189,16 @@ p {
 
 #hero-div {
     height: 250px;
+}
+
+.flex-box {
+    width: fit-content;
+    justify-content: center;
+    display: inline-grid;
+}
+
+* {
+    padding:1px;
 }
 }
 
