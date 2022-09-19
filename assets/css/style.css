@@ -140,6 +140,35 @@ p {
     float: left;
 }
 
+/*sign-up-form*/
+
+.form-section {
+    width: 100%;
+    height: 50%;
+    padding: 12%;
+}
+
+#form 
+
+#sign-up-img {
+    height: auto;
+    width: 100%;
+}
+
+#strawberry {
+    width: 100%;
+}
+
+#sign-up-div
+
+label {
+    font-size: 200%;
+}
+
+#solo {
+    font-size: 300%;
+}
+
 /*footer*/
 
 .social-networks {
