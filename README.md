@@ -7,3 +7,6 @@ The web site has a footer containing links to "facebook", "twitter", "instagram"
 There is a sign up section for anybody interested in recieving a news letter. 
 ![html_validator](assets/images/Web%20capture_19-9-2022_84557_validator.w3.org.jpeg)
 ![css_validator](assets/images/Web%20capture_19-9-2022_84239_jigsaw.w3.org.jpeg)
+## Acknowledge ##
+I used images from "pexels.com", "depositphotos.com" and "adobe.com".<br>
+I quoted the soil type reference on index.html page from "ecofamiilylife.com"
