@@ -256,4 +256,9 @@ label {
    height: auto;
 }
 
+#hero h1 {
+    font-size: 350%;
+    padding: 0 10%;
+}
+
 }
