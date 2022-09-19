@@ -192,14 +192,38 @@ p {
 }
 
 .flex-box {
-    width: fit-content;
-    justify-content: center;
+    justify-items: center;
     display: inline-grid;
 }
 
 * {
     padding:1px;
 }
+
+#smoothie {
+    width: 80%;
 }
 
+#cascade {
+    width: 80%;
+}
 
+#planter {
+    width: 80%;
+}
+
+#blur {
+    width: 80%;
+    height: auto;
+}
+
+#basket {
+    width: 80%;
+}
+
+#small-sbp {
+   width: 80%;
+   height: auto;
+}
+
+}
