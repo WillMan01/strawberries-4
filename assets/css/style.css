@@ -163,6 +163,7 @@ p {
 
 label {
     font-size: 200%;
+    justify-content: center;
 }
 
 #solo {
